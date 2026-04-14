@@ -148,7 +148,7 @@ void test_clean_eviction() {
 void run_all_tests() {
     cout << '\n';
     cout << "╔════════════════════════════════════════════════════════════════════════════╗\n";
-    cout << "║                    CACHE CONTROLLER TEST SUITE                              ║\n";
+    cout << "║                    CACHE CONTROLLER TEST SUITE                             ║\n";
     cout << "║              Testing Read/Write, Write-Back, and Evictions                 ║\n";
     cout << "╚════════════════════════════════════════════════════════════════════════════╝\n";   
     test_read_miss_hit();
@@ -175,7 +175,7 @@ void run_all_tests() {
     test_clean_eviction();
     cout << "\n\n";
     cout << "╔════════════════════════════════════════════════════════════════════════════╗\n";
-    cout << "║                         🎉 ALL TESTS COMPLETE! 🎉                           ║\n";
+    cout << "║                             ALL TESTS COMPLETE!                            ║\n";
     cout << "╚════════════════════════════════════════════════════════════════════════════╝\n";
     cout << "\nFeatures successfully tested:\n";
     cout << "  ✓ Read miss and hit handling\n";
